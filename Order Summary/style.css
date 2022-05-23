@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #deffdb;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0;
+}
+
+.header img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a.order{
+  position: absolute;
+  left: 30%;
+  padding: 20px;
+  color: grey;
+}
+
+a.pay{
+  position: absolute;
+  left: 60%;
+  padding: 20px;
+  color: grey;
+}
+
+a.ress{
+  position: absolute;
+  left: 45%;
+  padding: 20px; 
+  color: grey;
+}
+
+a:hover{
+  font-size: 1.5rem;
+  color: black;
+  transform: scale(1.2);
+}
+
+.cart-page {
+  margin: 80px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+th {
+  text-align: left;
+  padding: 5px;
+  color: black;
+  background-color: #deffdb;
+  font-weight: normal;
+}
+
+td {
+  padding: 10px 5px;
+}
+
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+
+td a {
+  color: gray;
+  font-size: 12px;
+}
+
+td img {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.next {
+  position: absolute;
+  left: 20%;
+  padding: 20px;
+  color: black;
+  background-color: #deffdb;
+}
+
+.cancel {
+  position: absolute;
+  left: 25%;
+  padding: 20px;
+  color: black;
+  background-color: #deffdb;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;        
+  padding: 10px 0;
+  bottom: 0;
+  border-top: 1px solid #ccc;
+  
+}
+
+.footer h2{
+  text-align: right;
+  font-family: Helvetica;
+  font-size: 10px;
+  color: gray;
+  padding-right: 15px;
+  font-weight: lighter;
+}
